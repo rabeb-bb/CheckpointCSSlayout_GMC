@@ -1,0 +1,178 @@
+/* initialization */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  color: #747474;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+}
+
+/* styling for the header */
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  display: inline-flex;
+}
+.bar {
+  display: flex;
+  align-items: space-between;
+}
+header img {
+  height: 2em;
+}
+.white {
+  color: white;
+}
+/* styling main */
+/* intro */
+.intro {
+  padding: 5% 0% 5% 0%;
+  text-align: center;
+}
+.parag {
+  display: flex;
+  flex-direction: row;
+}
+.parag p {
+  margin: 5px;
+  padding: 2% 10%;
+  text-align: left;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  position: static;
+}
+.services div {
+  margin: 5px;
+  padding: 5px;
+}
+.services * {
+  margin: 5px;
+  padding: 5px;
+}
+.services h3 {
+  color: white;
+}
+.drop {
+  align-items: flex-end;
+}
+.pat {
+  background-color: #00ccb1;
+  color: white;
+  border-radius: 5%;
+}
+.doc {
+  background-color: #3d83df;
+  color: white;
+  border-radius: 5%;
+}
+.clin {
+  background-color: #1b2734;
+  color: white;
+  border-radius: 5%;
+}
+/* this is the platform achievements section design */
+.platform {
+  background-color: #e5faf8;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 5% 0% 5% 00%;
+  margin: 0px;
+  background-repeat: repeat-x;
+}
+.achievements {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  flex-wrap: wrap;
+}
+.achievements div {
+  padding: 5% 5%;
+  border: solid 1px rgb(241, 241, 241);
+  border-radius: 1%;
+  text-align: center;
+  height: 220px;
+  width: 200px;
+  margin: 5px;
+  background-color: white;
+  justify-content: center;
+}
+
+.achievements h3 {
+  color: #00b39b;
+  padding: 2%;
+}
+.cluster {
+  text-align: left;
+  margin: 10% 0%;
+  width: 20%;
+}
+.text {
+  text-align: left;
+  margin: 10%;
+  width: 80%;
+}
+/* this is the pictures section */
+.improve {
+  align-items: center;
+  text-align: center;
+  margin: 10%;
+  width: 40%;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 26% 26% 26%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pics {
+  margin: 2%;
+  flex-direction: space-around;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5%;
+  border-color: rgb(211, 211, 211);
+}
+.pics img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+button {
+  background-color: rgb(84, 84, 219);
+  border-radius: 5%;
+  border-style: none;
+  color: white;
+  padding: 1% 2%;
+  margin: 2%;
+}
+a {
+  text-decoration: none;
+}
+.openings {
+  margin: 5% 0% 0% 0%;
+  text-align: center;
+}
+.bottom {
+  margin: 5% 0% 0% 0%;
+  text-align: center;
+}
+h2,
+h3 {
+  color: #00b39b;
+  font-weight: normal;
+  font-family: "Work Sans", Arial, sans-serif;
+}

@@ -178,6 +178,16 @@ header img {
   border-radius: 5%;
   width: 30%;
 }
+select {
+  width: 60%;
+  background-color: transparent;
+  border: transparent;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto";
+}
+option {
+  color: black;
+}
 /* this is the brands part */
 .brands {
   /* box model */
@@ -200,13 +210,19 @@ header img {
   line-height: 2em;
   height: 1%;
 }
-.brands svg,
-.brands img {
+.brands svg {
   fill: rgb(190, 186, 186);
+  width: 60%;
+}
+.brands img {
+  filter: grayscale(1);
   width: 60%;
 }
 .brands svg:hover {
   fill: #00ccb1;
+}
+.brands img:hover {
+  filter: grayscale(0);
 }
 
 .brands h2 {
@@ -356,13 +372,5 @@ hr {
   border: none;
 }
 
-select {
-  width: 60%;
-  background-color: transparent;
-  border: transparent;
-  color: rgb(255, 255, 255);
-  font-family: "Roboto";
-}
-option {
-  color: black;
-}
+
+
